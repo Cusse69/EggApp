@@ -8,7 +8,7 @@
     Title="EggApp">
 
     <ShellContent
-        Title="Home"
+        Title="Homepage"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
