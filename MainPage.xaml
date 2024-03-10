@@ -11,10 +11,6 @@
             <RowDefinition Height="14*" />
         </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
         <BoxView Grid.RowSpan="3">
             <BoxView.Background>
                 <LinearGradientBrush
@@ -37,19 +33,29 @@
             Color="{StaticResource PrimaryDark}"
             CornerRadius="0,0,10,10" />
 
-        <Image
-            Grid.Row="0"
-            Source="logo.png"
-            HorizontalOptions="Start"
-            VerticalOptions="Center" />
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
 
-        <Label
-            Grid.Row="0"
-            Text="Egg-cellent"
-            TextColor="{StaticResource White}"
-            HorizontalTextAlignment="Start"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
+            <Image
+                Grid.Column="0"
+                Source="logo.png"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="8,8,0,8" />
+
+            <Label
+                Grid.Column="1"
+                Text="Egg-cellent"
+                TextColor="{StaticResource White}"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="0,0,0,8" />
+        </Grid>
 
         <BoxView
             Grid.Row="2"
@@ -58,20 +64,114 @@
 
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="20*" />
+                <RowDefinition Height="60*" />
+                <RowDefinition Height="20*" />
             </Grid.RowDefinitions>
-
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
 
             <Border
                 Grid.Row="1"
                 Stroke="Black"
                 StrokeThickness="1"
                 Background="Transparent" />
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*" />
+                    <RowDefinition Height="70*" />
+                </Grid.RowDefinitions>
+
+                <Label
+                Grid.Row="0"
+                Text="Favorites"
+                TextColor="{StaticResource PrimaryDark}"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Start"
+                VerticalOptions="Center" />
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Image
+                        Grid.Column="0"
+                        Source="logo.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+
+                    <Image
+                        Grid.Column="1"
+                        Source="logo.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+
+                    <Image
+                        Grid.Column="2"
+                        Source="logo.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+
+                    <Image
+                        Grid.Column="3"
+                        Source="logo.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+
+                    <Image
+                        Grid.Column="5"
+                        Source="logo.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center" />
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="60*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="0"
+                Grid.Row="0"
+                Text="Estimated Time"
+                TextColor="#BABABA"
+                FontSize="12"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10" />
+
+            <Label
+                Grid.Column="0"
+                Grid.Row="1"
+                x:Name="countdown"
+                Text="07:00"
+                TextColor="{StaticResource White}"
+                FontSize="40"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Margin="-10" />
+
+            <Button
+                Clicked="StartTimeButtonClicked"
+                Grid.Column="1"
+                Grid.RowSpan="2"
+                Text="START"
+                Background="#FFC700"
+                WidthRequest="110"
+                CornerRadius="20"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="10" />
         </Grid>
     </Grid>
 

@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-02T08:25:00.687</Modified>
+      <Modified>2024-03-06T11:42:24.003</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-30T09:54:43.641</Modified>
+      <Modified>2024-03-06T11:14:48.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EggApp.runtimeconfig.json">
       <PackagePath>EggApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-24T09:42:15.651</Modified>
+      <Modified>2024-03-06T09:48:02.214</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EggApp.dll">
       <PackagePath>EggApp.dll</PackagePath>
-      <Modified>2024-02-02T08:25:00.241</Modified>
+      <Modified>2024-03-06T11:42:23.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EggApp.exe</PackagePath>
-      <Modified>2024-02-02T08:25:00.247</Modified>
+      <Modified>2024-03-06T11:42:23.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -82,217 +82,237 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-01-24T09:22:22.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-01-24T09:22:39.590</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eggplaceholder.scale-400.png">
+      <PackagePath>eggplaceholder.scale-400.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.317</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eggplaceholder.scale-200.png">
+      <PackagePath>eggplaceholder.scale-200.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.368</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eggplaceholder.scale-150.png">
+      <PackagePath>eggplaceholder.scale-150.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.400</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eggplaceholder.scale-125.png">
+      <PackagePath>eggplaceholder.scale-125.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.459</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\eggplaceholder.scale-100.png">
+      <PackagePath>eggplaceholder.scale-100.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-400.png">
+      <PackagePath>logo2.scale-400.png</PackagePath>
+      <Modified>2024-03-06T11:14:27.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-200.png">
+      <PackagePath>logo2.scale-200.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-150.png">
+      <PackagePath>logo2.scale-150.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-125.png">
+      <PackagePath>logo2.scale-125.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-100.png">
+      <PackagePath>logo2.scale-100.png</PackagePath>
+      <Modified>2024-03-06T11:14:26.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
+      <PackagePath>logo.scale-100.png</PackagePath>
+      <Modified>2024-03-06T11:40:57.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-01-24T09:22:40.760</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.781</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.459</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.791</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.400</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.826</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.368</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.796</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.806</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.734</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.744</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.775</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.749</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.760</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.627</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.638</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.647</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.657</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.673</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.677</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.688</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.729</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.698</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.708</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.965</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.980</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.035</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.082</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.888</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.900</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.913</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.926</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.949</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.831</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.843</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.852</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.864</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-01-24T09:22:39.878</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.100</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.117</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.142</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-01-24T09:22:40.184</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-01-24T09:22:40.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.png">
-      <PackagePath>logo.scale-100.png</PackagePath>
-      <Modified>2024-01-30T09:50:34.973</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-100.png">
-      <PackagePath>logo2.scale-100.png</PackagePath>
-      <Modified>2024-01-30T09:54:37.134</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.142</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-125.png">
-      <PackagePath>logo2.scale-125.png</PackagePath>
-      <Modified>2024-01-30T09:54:37.203</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.117</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-150.png">
-      <PackagePath>logo2.scale-150.png</PackagePath>
-      <Modified>2024-01-30T09:54:37.286</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.100</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-200.png">
-      <PackagePath>logo2.scale-200.png</PackagePath>
-      <Modified>2024-01-30T09:54:37.457</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo2.scale-400.png">
-      <PackagePath>logo2.scale-400.png</PackagePath>
-      <Modified>2024-01-30T09:54:38.167</Modified>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.878</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.831</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.657</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-24T09:22:39.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-01-24T09:22:39.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EggApp.deps.json">
       <PackagePath>EggApp.deps.json</PackagePath>
-      <Modified>2024-01-24T09:42:15.448</Modified>
+      <Modified>2024-03-06T09:48:02.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -301,6 +321,10 @@
     <AppxPackagedFile Include="C:\Users\marcu\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\marcu\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2023-10-24T20:16:06.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\marcu\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>

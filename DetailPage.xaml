@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EggApp.DetailPage"
+             Title="DetailPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="14*" />
+            <RowDefinition Height="86*" />
+        </Grid.RowDefinitions>
+
+        <BoxView Grid.RowSpan="3">
+            <BoxView.Background>
+                <LinearGradientBrush
+                    StartPoint="0,0"
+                    EndPoint="0,1">
+                    <GradientStopCollection>
+                        <GradientStop
+                            Offset="0"
+                            Color="{StaticResource Primary1}" />
+                        <GradientStop
+                            Offset="1"
+                            Color="{StaticResource Primary2}" />
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+
+        <BoxView
+            Grid.Row="0"
+            Color="{StaticResource PrimaryDark}"
+            CornerRadius="0,0,10,10" />
+
+        <Image
+            Grid.Row="0"
+            Source="logo.png"
+            HorizontalOptions="Start"
+            VerticalOptions="Center" />
+
+        <Label
+            Grid.Row="0"
+            Text="Egg-cellent"
+            TextColor="{StaticResource White}"
+            HorizontalTextAlignment="Start"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <Label
+                Grid.Row="0"
+                Text="Your egg is now cooking!"
+                TextColor="{StaticResource PrimaryDark}"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+            <Image
+                Grid.Row="1"
+                Source="logo.png"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+
+            <Label
+                Grid.Row="2"
+                Text="Estimated time"
+                TextColor="{StaticResource PrimaryDark}"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                VerticalOptions="End" />
+
+            <Label
+                Grid.Row="3"
+                x:Name="countdown"
+                Text="00:00"
+                TextColor="{StaticResource PrimaryDark}"
+                FontSize="40"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="-10" />
+
+            <Button
+                Clicked="CancelTimeButtonClicked"
+                Grid.Row="4"
+                Text="CANCEL"
+                Background="{StaticResource PrimaryDark}"
+                WidthRequest="110"
+                CornerRadius="20"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Margin="10" />
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JqobIVMSj44bB82d70xCT376sBXqidqCAD2K047qKtysUFJha8urJwxpbpt0dmp16A/YY2CFqlfYwhE0m3eqgA==",
+  "dgSpecHash": "WZnFcDyARkShaoJm7kW+WUK3NEArgDH8jsSDZkaV+oNsYEbA/eFeBigzc+/tzgXtDiwt+fmFbgkDuoJeGNKWHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\EggApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marcu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\marcu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

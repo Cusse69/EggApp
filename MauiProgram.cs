@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using EggApp.ViewModels;
+using Microsoft.Extensions.Logging;
 
 namespace EggApp
 {
@@ -18,6 +19,10 @@ namespace EggApp
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<MainPage>();
+
+            builder.Services.AddTransient<DetailPage>();
+            builder.Services.AddTransient<DetailViewModel>();
 
             return builder.Build();
         }
