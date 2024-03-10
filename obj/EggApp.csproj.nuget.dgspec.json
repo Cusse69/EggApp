@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\EggApp.csproj": {}
+    "E:\\EggApp\\EggApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\EggApp.csproj": {
+    "E:\\EggApp\\EggApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\EggApp.csproj",
+        "projectUniqueName": "E:\\EggApp\\EggApp.csproj",
         "projectName": "EggApp",
-        "projectPath": "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\EggApp.csproj",
+        "projectPath": "E:\\EggApp\\EggApp.csproj",
         "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcu\\OneDrive\\Desktop\\Skole\\Programmering\\MAUI\\EggApp\\obj\\",
+        "outputPath": "E:\\EggApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -38,11 +38,11 @@
             "targetAlias": "net8.0-android",
             "projectReferences": {}
           },
-          "net8.0-ios17.0": {
+          "net8.0-ios17.2": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {}
           },
-          "net8.0-maccatalyst17.0": {
+          "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {}
           },
@@ -55,6 +55,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,17 +76,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Sliders": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -103,9 +112,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios17.0": {
+        "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -118,17 +127,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Sliders": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -150,9 +163,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst17.0": {
+        "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
@@ -165,17 +178,21 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )",
+              "version": "[8.0.2, )",
               "autoReferenced": true
+            },
+            "Syncfusion.Maui.Sliders": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -198,7 +215,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -213,11 +230,15 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.6, )"
+            },
+            "Syncfusion.Maui.Sliders": {
+              "target": "Package",
+              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -245,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

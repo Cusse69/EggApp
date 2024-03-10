@@ -14,15 +14,15 @@
         <BoxView Grid.RowSpan="3">
             <BoxView.Background>
                 <LinearGradientBrush
-                        StartPoint="0,0"
-                        EndPoint="0,1">
+                    StartPoint="0,0"
+                    EndPoint="0,1">
                     <GradientStopCollection>
                         <GradientStop
-                                Offset="0"
-                                Color="{StaticResource Primary1}" />
+                            Offset="0"
+                            Color="{StaticResource Primary1}" />
                         <GradientStop
-                                Offset="1"
-                                Color="{StaticResource Primary2}" />
+                            Offset="1"
+                            Color="{StaticResource Primary2}" />
                     </GradientStopCollection>
                 </LinearGradientBrush>
             </BoxView.Background>
@@ -33,10 +33,15 @@
             Color="{StaticResource PrimaryDark}"
             CornerRadius="0,0,10,10" />
 
+        <BoxView
+            Grid.Row="2"
+            Color="{StaticResource PrimaryDark}"
+            CornerRadius="10,10,0,0" />
+
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="15*"/>
-                <ColumnDefinition Width="65*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
                 <ColumnDefinition Width="20*"/>
             </Grid.ColumnDefinitions>
 
@@ -56,11 +61,6 @@
                 VerticalOptions="End"
                 Margin="0,0,0,8" />
         </Grid>
-
-        <BoxView
-            Grid.Row="2"
-            Color="{StaticResource PrimaryDark}"
-            CornerRadius="10,10,0,0" />
 
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
@@ -88,7 +88,7 @@
                 HorizontalOptions="Start"
                 VerticalOptions="Center" />
 
-                <Grid Grid.Row="1">
+                <Grid Grid.Row="1" Margin="5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
@@ -128,6 +128,34 @@
                         VerticalOptions="Center" />
                 </Grid>
             </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20*" />
+                    <RowDefinition Height="15*" />
+                    <RowDefinition Height="65*" />
+                </Grid.RowDefinitions>
+                
+                <Label
+                    Grid.Row="0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"
+                    TextColor="{StaticResource Black}"
+                    BindingContext="{x:Reference slider}"
+                    Text="{Binding Value, StringFormat='{0:F0}'}" />
+                <Slider
+                    Grid.Row="1"
+                    x:Name="slider"
+                    Minimum="1"
+                    Maximum="3"
+                    WidthRequest="200"
+                    Value="2" />
+                <Image
+                    Grid.Row="2"
+                    Source="egg.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Margin="8,8,8,8" />
+            </Grid>
         </Grid>
         <Grid Grid.Row="2">
             <Grid.RowDefinitions>
@@ -166,10 +194,12 @@
                 Grid.Column="1"
                 Grid.RowSpan="2"
                 Text="START"
-                Background="#FFC700"
-                WidthRequest="110"
+                TextColor="{StaticResource Black}"
+                Background="{StaticResource Primary1}"
+                WidthRequest="125"
+                HeightRequest="55"
                 CornerRadius="20"
-                HorizontalOptions="Start"
+                HorizontalOptions="Center"
                 VerticalOptions="Center"
                 Margin="10" />
         </Grid>

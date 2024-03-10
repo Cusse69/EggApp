@@ -8,41 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EggApp
-build_property.ProjectDir = C:\Users\marcu\OneDrive\Desktop\Skole\Programmering\MAUI\EggApp\
+build_property.ProjectDir = E:\EggApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/App.xaml]
+[E:/EggApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/AppShell.xaml]
+[E:/EggApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/DetailPage.xaml]
+[E:/EggApp/DetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.DetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = DetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = DetailPage.xaml
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/MainPage.xaml]
+[E:/EggApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/Resources/Styles/Colors.xaml]
+[E:/EggApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/marcu/OneDrive/Desktop/Skole/Programmering/MAUI/EggApp/Resources/Styles/Styles.xaml]
+[E:/EggApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = EggApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

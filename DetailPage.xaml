@@ -31,25 +31,35 @@
             Color="{StaticResource PrimaryDark}"
             CornerRadius="0,0,10,10" />
 
-        <Image
-            Grid.Row="0"
-            Source="logo.png"
-            HorizontalOptions="Start"
-            VerticalOptions="Center" />
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
 
-        <Label
-            Grid.Row="0"
-            Text="Egg-cellent"
-            TextColor="{StaticResource White}"
-            HorizontalTextAlignment="Start"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
+            <Image
+                Grid.Column="0"
+                Source="logo.png"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="8,8,0,8" />
+
+            <Label
+                Grid.Column="1"
+                Text="Egg-cellent"
+                TextColor="{StaticResource White}"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="0,0,0,8" />
+        </Grid>
 
         <Grid Grid.Row="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
-                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="2*" />
             </Grid.RowDefinitions>
@@ -64,7 +74,8 @@
 
             <Image
                 Grid.Row="1"
-                Source="logo.png"
+                Scale="1.35"
+                Source="egg.png"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
 
@@ -90,6 +101,7 @@
                 Clicked="CancelTimeButtonClicked"
                 Grid.Row="4"
                 Text="CANCEL"
+                TextColor="{StaticResource White}"
                 Background="{StaticResource PrimaryDark}"
                 WidthRequest="110"
                 CornerRadius="20"
