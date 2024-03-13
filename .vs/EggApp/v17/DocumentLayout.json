@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|e:\\eggapp\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|solutionrelative:detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|e:\\eggapp\\detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|solutionrelative:detailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|e:\\eggapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|e:\\eggapp\\detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|solutionrelative:detailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8544C77-07FB-4AB0-8DF1-42C0584F45B0}|EggApp.csproj|e:\\eggapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -64,26 +64,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "E:\\EggApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "E:\\EggApp\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T20:32:17.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DetailPage.xaml.cs",
               "DocumentMoniker": "E:\\EggApp\\DetailPage.xaml.cs",
               "RelativeDocumentMoniker": "DetailPage.xaml.cs",
               "ToolTip": "E:\\EggApp\\DetailPage.xaml.cs",
               "RelativeToolTip": "DetailPage.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAUwBIAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-10T20:32:17.303Z",
               "EditorCaption": ""
@@ -96,14 +96,14 @@
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "E:\\EggApp\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAALEAAAAAAAAAAAAAAMcAAAAhAAAA",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAiwCgBAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-10T20:32:17.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DetailPage.xaml",
               "DocumentMoniker": "E:\\EggApp\\DetailPage.xaml",
               "RelativeDocumentMoniker": "DetailPage.xaml",

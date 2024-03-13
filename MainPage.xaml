@@ -33,11 +33,6 @@
             Color="{StaticResource PrimaryDark}"
             CornerRadius="0,0,10,10" />
 
-        <BoxView
-            Grid.Row="2"
-            Color="{StaticResource PrimaryDark}"
-            CornerRadius="10,10,0,0" />
-
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20*"/>
@@ -62,147 +57,244 @@
                 Margin="0,0,0,8" />
         </Grid>
 
-        <Grid Grid.Row="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="20*" />
-                <RowDefinition Height="60*" />
-                <RowDefinition Height="20*" />
-            </Grid.RowDefinitions>
-
-            <Border
-                Grid.Row="1"
-                Stroke="Black"
-                StrokeThickness="1"
-                Background="Transparent" />
-            <Grid Grid.Row="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="30*" />
-                    <RowDefinition Height="70*" />
-                </Grid.RowDefinitions>
-
-                <Label
-                Grid.Row="0"
-                Text="Favorites"
-                TextColor="{StaticResource PrimaryDark}"
-                HorizontalTextAlignment="Start"
-                HorizontalOptions="Start"
-                VerticalOptions="Center" />
-
-                <Grid Grid.Row="1" Margin="5">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <Image
-                        Grid.Column="0"
-                        Source="logo.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center" />
-
-                    <Image
-                        Grid.Column="1"
-                        Source="logo.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center" />
-
-                    <Image
-                        Grid.Column="2"
-                        Source="logo.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center" />
-
-                    <Image
-                        Grid.Column="3"
-                        Source="logo.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center" />
-
-                    <Image
-                        Grid.Column="5"
-                        Source="logo.png"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center" />
-                </Grid>
-            </Grid>
+        <ScrollView>
             <Grid Grid.Row="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="20*" />
-                    <RowDefinition Height="15*" />
-                    <RowDefinition Height="65*" />
+                    <RowDefinition Height="60*" />
+                    <RowDefinition Height="20*" />
                 </Grid.RowDefinitions>
-                
-                <Label
+
+                <Border
+                    Grid.Row="1"
+                    Stroke="Black"
+                    StrokeThickness="1"
+                    Background="Transparent" />
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30*" />
+                        <RowDefinition Height="70*" />
+                    </Grid.RowDefinitions>
+
+                    <Label
                     Grid.Row="0"
+                    Text="Favorites"
+                    TextColor="{StaticResource PrimaryDark}"
+                    HorizontalTextAlignment="Start"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center" />
+
+                    <Grid Grid.Row="1" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image
+                            Grid.Column="0"
+                            Source="logo.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <Image
+                            Grid.Column="1"
+                            Source="logo.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <Image
+                            Grid.Column="2"
+                            Source="logo.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <Image
+                            Grid.Column="3"
+                            Source="logo.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+
+                        <Image
+                            Grid.Column="5"
+                            Source="logo.png"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center" />
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*" />
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="15*" />
+                        <RowDefinition Height="60*" />
+                        <RowDefinition Height="15*" />
+                        <RowDefinition Height="20*" />
+                        <RowDefinition Height="15*" />
+                    </Grid.RowDefinitions>
+
+                    <Label
+                        Grid.Row="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        TextColor="{StaticResource Black}"
+                        Text="How would you like your egg?" />
+                
+                    <!--BindingContext="{x:Reference slider}"
+                        Text="{Binding Value, StringFormat='{0:F0}'}"-->
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Column="0"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="{StaticResource Black}"
+                            Text="Liquid" />
+
+                        <Label
+                            Grid.Column="1"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="{StaticResource Black}"
+                            Text="Soft" />
+
+                        <Label
+                            Grid.Column="2"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="{StaticResource Black}"
+                            Text="Hard" />
+                    </Grid>
+
+                    <Slider
+                        Grid.Row="2"
+                        x:Name="typeSlider"
+                        Minimum="1"
+                        Maximum="3"
+                        WidthRequest="200"
+                        Value="2"
+                        ValueChanged="TypeSliderChanged"
+                        ThumbColor="{StaticResource PrimaryDark}"
+                        MinimumTrackColor="{StaticResource PrimaryDark}"
+                        MaximumTrackColor="{StaticResource PrimaryDark}" />
+                
+                    <Image
+                        Grid.Row="3"
+                        Source="egg.png"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="8,8,8,8" />
+
+                    <Label
+                        Grid.Row="4"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"
+                        TextColor="{StaticResource Black}"
+                        Text="What is the current temperature of the egg?" />
+
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label
+                            Grid.Column="0"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="{StaticResource Black}"
+                            Text="Fridge" />
+
+                        <Label
+                            Grid.Column="2"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            TextColor="{StaticResource Black}"
+                            Text="Room" />
+                    </Grid>
+
+                    <Slider
+                        Grid.Row="6"
+                        x:Name="temperatureSlider"
+                        Minimum="5"
+                        Maximum="22"
+                        WidthRequest="200"
+                        Value="2"
+                        ValueChanged="TemperatureSliderChanged"
+                        ThumbColor="{StaticResource PrimaryDark}"
+                        MinimumTrackColor="{StaticResource PrimaryDark}"
+                        MaximumTrackColor="{StaticResource PrimaryDark}" />
+
+                    <Label
+                        Grid.Row="6"
+                        x:Name="temperature"
+                        HorizontalOptions="End"
+                        VerticalOptions="End"
+                        TextColor="{StaticResource Black}"
+                        Text="0 °C" />
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="60*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Text="Estimated Time"
+                    TextColor="#BABABA"
+                    FontSize="12"
                     HorizontalOptions="Center"
                     VerticalOptions="End"
-                    TextColor="{StaticResource Black}"
-                    BindingContext="{x:Reference slider}"
-                    Text="{Binding Value, StringFormat='{0:F0}'}" />
-                <Slider
+                    Margin="10" />
+
+                <Label
+                    Grid.Column="0"
                     Grid.Row="1"
-                    x:Name="slider"
-                    Minimum="1"
-                    Maximum="3"
-                    WidthRequest="200"
-                    Value="2" />
-                <Image
-                    Grid.Row="2"
-                    Source="egg.png"
+                    x:Name="countdown"
+                    Text="07:00"
+                    TextColor="{StaticResource White}"
+                    FontSize="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"
+                    Margin="-10" />
+
+                <Button
+                    Clicked="StartTimeButtonClicked"
+                    Grid.Column="1"
+                    Grid.RowSpan="2"
+                    Text="START"
+                    TextColor="{StaticResource Black}"
+                    Background="{StaticResource Primary1}"
+                    WidthRequest="125"
+                    HeightRequest="55"
+                    CornerRadius="20"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    Margin="8,8,8,8" />
+                    Margin="10" />
             </Grid>
-        </Grid>
-        <Grid Grid.Row="2">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
+        </ScrollView>
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="40*"/>
-                <ColumnDefinition Width="60*"/>
-            </Grid.ColumnDefinitions>
-
-            <Label
-                Grid.Column="0"
-                Grid.Row="0"
-                Text="Estimated Time"
-                TextColor="#BABABA"
-                FontSize="12"
-                HorizontalOptions="Center"
-                VerticalOptions="End"
-                Margin="10" />
-
-            <Label
-                Grid.Column="0"
-                Grid.Row="1"
-                x:Name="countdown"
-                Text="07:00"
-                TextColor="{StaticResource White}"
-                FontSize="40"
-                HorizontalOptions="Center"
-                VerticalOptions="Start"
-                Margin="-10" />
-
-            <Button
-                Clicked="StartTimeButtonClicked"
-                Grid.Column="1"
-                Grid.RowSpan="2"
-                Text="START"
-                TextColor="{StaticResource Black}"
-                Background="{StaticResource Primary1}"
-                WidthRequest="125"
-                HeightRequest="55"
-                CornerRadius="20"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                Margin="10" />
-        </Grid>
+        <BoxView
+            Grid.Row="2"
+            Color="{StaticResource PrimaryDark}"
+            CornerRadius="10,10,0,0" />
     </Grid>
 
 </ContentPage>

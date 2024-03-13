@@ -14,9 +14,18 @@ namespace EggApp
             InitializeComponent();
         }
 
-        async void StartTimeButtonClicked(object sender, EventArgs e)
+        void StartTimeButtonClicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync("DetailPage");
+            Shell.Current.GoToAsync("DetailPage");
+        }
+
+        void TypeSliderChanged(object sender, EventArgs e)
+        {
+        }
+
+        void TemperatureSliderChanged(object sender, EventArgs e)
+        {
+            temperature.Text = Math.Round(temperatureSlider.Value) + " °C";
         }
     }
 }
