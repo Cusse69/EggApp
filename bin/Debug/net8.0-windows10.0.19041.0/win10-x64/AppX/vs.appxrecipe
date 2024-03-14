@@ -29,13 +29,13 @@
     <AppXManifest Include="E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-13T21:41:33.437</Modified>
+      <Modified>2024-03-14T21:35:24.413</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-13T21:41:33.349</Modified>
+      <Modified>2024-03-14T21:35:24.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EggApp.runtimeconfig.json">
       <PackagePath>EggApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\EggApp.dll">
       <PackagePath>EggApp.dll</PackagePath>
-      <Modified>2024-03-13T21:41:33.021</Modified>
+      <Modified>2024-03-14T21:35:23.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>EggApp.exe</PackagePath>
-      <Modified>2024-03-13T21:41:33.047</Modified>
+      <Modified>2024-03-14T21:35:24.016</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\EggApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

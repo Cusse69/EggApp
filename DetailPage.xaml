@@ -5,8 +5,8 @@
              Title="DetailPage">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="14*" />
-            <RowDefinition Height="86*" />
+            <RowDefinition Height="11*" />
+            <RowDefinition Height="89*" />
         </Grid.RowDefinitions>
 
         <BoxView Grid.RowSpan="3">
@@ -75,7 +75,7 @@
             <Image
                 Grid.Row="1"
                 Scale="1.35"
-                Source="egg.png"
+                Source="egg0.png"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
 

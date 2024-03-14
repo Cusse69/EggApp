@@ -1,11 +1,18 @@
 using EggApp.ViewModels;
+using System.Net;
 
 namespace EggApp;
 
 public partial class DetailPage : ContentPage
 {
+    public int cookTime
+    {
+        get; set;
+    }
+
     IDispatcherTimer? timer;
-    readonly DateTime tidTagning = new DateTime(DateTime.Now.Ticks + new TimeSpan(0, 7, 0).Ticks);
+    readonly DateTime tidTagning = new DateTime(DateTime.Now.Ticks + new TimeSpan(0, 6, 0).Ticks);
+
     public DetailPage(DetailViewModel vm)
 	{
 		InitializeComponent();
