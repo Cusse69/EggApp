@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EggApp.DetailPage"
-             Title="DetailPage">
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="EggApp.DetailPage">
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="11*" />
             <RowDefinition Height="89*" />
         </Grid.RowDefinitions>
 
-        <BoxView Grid.RowSpan="3">
+        <BoxView Grid.RowSpan="2">
             <BoxView.Background>
                 <LinearGradientBrush
                     StartPoint="0,0"
@@ -26,36 +27,7 @@
             </BoxView.Background>
         </BoxView>
 
-        <BoxView
-            Grid.Row="0"
-            Color="{StaticResource PrimaryDark}"
-            CornerRadius="0,0,10,10" />
-
-        <Grid Grid.Row="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="60*"/>
-                <ColumnDefinition Width="20*"/>
-            </Grid.ColumnDefinitions>
-
-            <Image
-                Grid.Column="0"
-                Source="logo.png"
-                HorizontalOptions="Start"
-                VerticalOptions="Center"
-                Margin="8,8,0,8" />
-
-            <Label
-                Grid.Column="1"
-                Text="Egg-cellent"
-                TextColor="{StaticResource White}"
-                HorizontalTextAlignment="Start"
-                HorizontalOptions="Start"
-                VerticalOptions="End"
-                Margin="0,0,0,8" />
-        </Grid>
-
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="2*" />
                 <RowDefinition Height="2*" />
@@ -66,6 +38,7 @@
 
             <Label
                 Grid.Row="0"
+                x:Name="cookingText"
                 Text="Your egg is now cooking!"
                 TextColor="{StaticResource PrimaryDark}"
                 HorizontalTextAlignment="Center"
@@ -74,7 +47,8 @@
 
             <Image
                 Grid.Row="1"
-                Scale="1.35"
+                x:Name="eggImage"
+                Scale="1.65"
                 Source="egg0.png"
                 HorizontalOptions="Center"
                 VerticalOptions="Center" />
@@ -100,14 +74,52 @@
             <Button
                 Clicked="CancelTimeButtonClicked"
                 Grid.Row="4"
-                Text="CANCEL"
+                Text="STOP TIMER"
                 TextColor="{StaticResource White}"
                 Background="{StaticResource PrimaryDark}"
-                WidthRequest="110"
+                WidthRequest="140"
+                HeightRequest="55"
                 CornerRadius="20"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
                 Margin="10" />
+        </Grid>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+
+            <BoxView
+                Grid.ColumnSpan="3"
+                Color="{StaticResource PrimaryDark}"
+                CornerRadius="0,0,10,10"
+                BackgroundColor="{StaticResource Primary1}">
+                <BoxView.Shadow>
+                    <Shadow
+                        Brush="{StaticResource Black}"
+                        Offset="0,15"
+                        Opacity="0.4" />
+                </BoxView.Shadow>
+            </BoxView>
+
+            <Image
+                Grid.Column="0"
+                Source="logo.png"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="8,8,0,8" />
+
+            <Label
+                Grid.Column="1"
+                Text="Egg-cellent"
+                TextColor="{StaticResource White}"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="0,0,0,8" />
         </Grid>
     </Grid>
 </ContentPage>

@@ -1,60 +1,97 @@
 ﻿using System;
+using System.Net;
 using Microsoft.Maui.Controls;
 
 namespace EggApp
 {
     public partial class MainPage : ContentPage
     {
-        // Countdown timer er lavet med hjælp fra
-        // https://www.youtube.com/watch?v=34p2XM74J3g & 
-        // https://stackoverflow.com/questions/73816335/device-starttimer-is-deprecated-in-maui-what-is-the-alternative
-
-        public int cookTime
-        {
-            get; set;
-        }
+        private int cookTime = 360;
+        private ImageSource imageSource = "egg3.png";
+        private bool butttonPressed = false;
 
         public MainPage()
         {
             InitializeComponent();
+            UpdateTime();
         }
 
-        void StartTimeButtonClicked(object sender, EventArgs e)
+        async void StartTimeButtonClicked(object sender, EventArgs e)
         {
-            Shell.Current.GoToAsync("DetailPage");
+            if (!butttonPressed)
+            {
+                butttonPressed = true;
+                await Navigation.PushAsync(new DetailPage(cookTime, imageSource));
+                butttonPressed = false;
+            }
+        }
+
+        async void ScanButtonClicked(object sender, EventArgs e)
+        {
+            if (!butttonPressed)
+            {
+                butttonPressed = true;
+                await Navigation.PushAsync(new CameraPage());
+                butttonPressed = false;
+            }
         }
 
         void TypeSliderChanged(object sender, EventArgs e)
         {
-            int imageNumber = 0;
-            switch (Math.Round(typeSlider.Value))
-            {
-                case 1:
-                    imageNumber = 6;
-                    countdown.Text = "00:00";
-                    break;
-                case 2:
-                    imageNumber = 3;
-                    countdown.Text = "06:00";
-                    break;
-                case 3:
-                    imageNumber = 0;
-                    countdown.Text = "10:00";
-                    break;
-                default:
-                    break;
-            }
-            eggImage.Source = "egg" + imageNumber.ToString() + ".png";
+            UpdateTime();
         }
 
         void TemperatureSliderChanged(object sender, EventArgs e)
         {
             temperature.Text = Math.Round(temperatureSlider.Value) + " °C";
+            UpdateTime();
         }
 
-        void PictureButtonClicked(object sender, EventArgs e)
+        void UpdateTime()
         {
+            int imageNumber = (int)Math.Round(typeSlider.Value);
 
+            imageSource = "egg" + imageNumber.ToString() + ".png";
+            if (eggImage.Source != imageSource)
+            {
+                eggImage.Source = imageSource;
+            }
+
+            // Tider hentet fået fra ChatGPT
+            // cookTime er i sekunder
+
+            switch (imageNumber)
+            {
+                case 0:
+                    cookTime = 90;
+                    break;
+                case 1:
+                    cookTime = 180;
+                    break;
+                case 2:
+                    cookTime = 270;
+                    break;
+                case 3:
+                    cookTime = 330;
+                    break;
+                case 4:
+                    cookTime = 450;
+                    break;
+                case 5:
+                    cookTime = 540;
+                    break;
+                case 6:
+                    cookTime = 600;
+                    break;
+                default:
+                    break;
+            }
+
+            cookTime += (int)Math.Round(90/17*(22-Math.Round(temperatureSlider.Value)));
+            int minutes = (int)Math.Floor(cookTime / 60.0);
+            int seconds = cookTime % 60;
+
+            countdown.Text = minutes.ToString("00") + ":" + seconds.ToString("00");
         }
     }
 }

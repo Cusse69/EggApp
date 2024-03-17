@@ -221,9 +221,7 @@ E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.PushN
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Power.Projection.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
-E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Release.Net.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -368,7 +366,12 @@ E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Licensing.dll
-E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Core.dll
-E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Syncfusion.Maui.Sliders.dll
-E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg0.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg1.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg2.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg3.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg4.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg5.scale-100.png
+E:\EggApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\egg6.scale-100.png
+E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Camera.MAUI.dll
+E:\EggApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Providers.Projection.dll

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+    x:Class="EggApp.CameraPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*" />
+            <RowDefinition Height="89*" />
+        </Grid.RowDefinitions>
+
+        <BoxView Grid.RowSpan="2">
+            <BoxView.Background>
+                <LinearGradientBrush
+                    StartPoint="0,0"
+                    EndPoint="0,1">
+                    <GradientStopCollection>
+                        <GradientStop
+                            Offset="0"
+                            Color="{StaticResource Primary1}" />
+                        <GradientStop
+                            Offset="1"
+                            Color="{StaticResource Primary2}" />
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            
+            <cv:CameraView
+                x:Name="cameraView"
+                Grid.Row="0"
+                WidthRequest="300"
+                HeightRequest="300" 
+                HorizontalOptions="Fill"
+                VerticalOptions="End"
+                CamerasLoaded="cameraView_CamerasLoaded" />
+
+            <Button
+                Clicked="ScanButtonClicked"
+                Grid.Row="1"
+                Text="SCAN EGG"
+                TextColor="{StaticResource White}"
+                Background="{StaticResource PrimaryDark}"
+                WidthRequest="185"
+                HeightRequest="65"
+                CornerRadius="20"
+                HorizontalOptions="Center"
+                VerticalOptions="Center" />
+        </Grid>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+
+            <BoxView
+                Grid.ColumnSpan="3"
+                Color="{StaticResource PrimaryDark}"
+                CornerRadius="0,0,10,10"
+                BackgroundColor="{StaticResource Primary1}">
+                <BoxView.Shadow>
+                    <Shadow
+                        Brush="{StaticResource Black}"
+                        Offset="0,15"
+                        Opacity="0.4" />
+                </BoxView.Shadow>
+            </BoxView>
+            
+            <Image
+                Grid.Column="0"
+                Source="logo.png"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                Margin="8,8,0,8" />
+
+            <Label
+                Grid.Column="1"
+                Text="Egg-cellent"
+                TextColor="{StaticResource White}"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Start"
+                VerticalOptions="End"
+                Margin="0,0,0,8" />
+        </Grid>
+    </Grid>
+
+</ContentPage>

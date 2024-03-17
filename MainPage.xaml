@@ -66,31 +66,31 @@
 
                         <Image
                             Grid.Column="0"
-                            Source="logo.png"
+                            Source="favorite.png"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
 
                         <Image
                             Grid.Column="1"
-                            Source="logo.png"
+                            Source="favorite.png"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
 
                         <Image
                             Grid.Column="2"
-                            Source="logo.png"
+                            Source="favorite.png"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
 
                         <Image
                             Grid.Column="3"
-                            Source="logo.png"
+                            Source="favorite.png"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
 
                         <Image
                             Grid.Column="5"
-                            Source="logo.png"
+                            Source="favorite.png"
                             HorizontalOptions="Center"
                             VerticalOptions="Center" />
                     </Grid>
@@ -151,10 +151,10 @@
                     <Slider
                         Grid.Row="2"
                         x:Name="typeSlider"
-                        Minimum="1"
-                        Maximum="3"
+                        Minimum="0"
+                        Maximum="6"
                         WidthRequest="265"
-                        Value="2"
+                        Value="3"
                         ValueChanged="TypeSliderChanged"
                         ThumbColor="{StaticResource PrimaryDark}"
                         MinimumTrackColor="{StaticResource PrimaryDark}"
@@ -176,7 +176,7 @@
                         VerticalOptions="Center"
                         HorizontalTextAlignment="Center"
                         TextColor="{StaticResource Black}"
-                        Text="What is the current temperature of the egg?"
+                        Text="What is the current temperature of your egg?"
                         Margin="0,20,0,30" />
 
                     <Grid Grid.Row="5">
@@ -222,7 +222,7 @@
                         HorizontalOptions="End"
                         VerticalOptions="End"
                         TextColor="{StaticResource Black}"
-                        Text="0 °C" />
+                        Text="5 °C" />
                 </Grid>
 
                 <Grid Grid.Row="2" Margin="10">
@@ -231,19 +231,19 @@
                             <RowDefinition Height="40*" />
                             <RowDefinition Height="60*" />
                         </Grid.RowDefinitions>
-                        
+
                         <Label
                             Grid.Row="0"
                             HorizontalOptions="Center"
                             VerticalOptions="Center"
                             TextColor="{StaticResource Black}"
-                            Text="Wanna take a picture?"
+                            Text="Determine the size of your egg!"
                             Margin="0,20,0,30" />
 
                         <Button
                             Grid.Row="1"
-                            Clicked="PictureButtonClicked"
-                            Text="Take picture"
+                            Clicked="ScanButtonClicked"
+                            Text="SCAN EGG"
                             TextColor="{StaticResource White}"
                             Background="{StaticResource PrimaryDark}"
                             WidthRequest="125"
@@ -258,22 +258,25 @@
             </Grid>
         </ScrollView>
 
-        <BoxView
-            Grid.Row="0"
-            Color="{StaticResource PrimaryDark}"
-            CornerRadius="0,0,10,10" />
-
-        <BoxView
-            Grid.Row="2"
-            Color="{StaticResource PrimaryDark}"
-            CornerRadius="10,10,0,0" />
-
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="20*"/>
                 <ColumnDefinition Width="60*"/>
                 <ColumnDefinition Width="20*"/>
             </Grid.ColumnDefinitions>
+
+            <BoxView
+                Grid.ColumnSpan="3"
+                Color="{StaticResource PrimaryDark}"
+                CornerRadius="0,0,10,10"
+                BackgroundColor="{StaticResource Primary1}">
+                <BoxView.Shadow>
+                    <Shadow
+                        Brush="{StaticResource Black}"
+                        Offset="0,15"
+                        Opacity="0.4" />
+                </BoxView.Shadow>
+            </BoxView>
 
             <Image
                 Grid.Column="0"
@@ -303,6 +306,13 @@
                 <ColumnDefinition Width="60*"/>
             </Grid.ColumnDefinitions>
 
+            <BoxView
+                Grid.ColumnSpan="2"
+                Grid.RowSpan="2"
+                Color="{StaticResource PrimaryDark}"
+                CornerRadius="10,10,0,0"
+                BackgroundColor="{StaticResource Primary1}" />
+
             <Label
                     Grid.Column="0"
                     Grid.Row="0"
@@ -317,7 +327,7 @@
                     Grid.Column="0"
                     Grid.Row="1"
                     x:Name="countdown"
-                    Text="06:00"
+                    Text="00:00"
                     TextColor="{StaticResource White}"
                     FontSize="40"
                     HorizontalOptions="Center"
@@ -335,8 +345,7 @@
                     HeightRequest="55"
                     CornerRadius="20"
                     HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    Margin="10" />
+                    VerticalOptions="Center" />
         </Grid>
     </Grid>
 

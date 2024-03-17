@@ -6,7 +6,7 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
-    <Color x:Key="Primary">#FFD460</Color>
+    <Color x:Key="Primary">#CCCCCC</Color>
     <Color x:Key="PrimaryDarkText">#242424</Color>
     <Color x:Key="Secondary">#DFD8F7</Color>
     <Color x:Key="SecondaryDarkText">#9880e5</Color>
@@ -15,6 +15,7 @@
     <Color x:Key="Primary1">#E1B01F</Color>
     <Color x:Key="Primary2">#FFD460</Color>
     <Color x:Key="PrimaryDark">#372e26</Color>
+    <Color x:Key="Warning">#FF5733</Color>
 
     <Color x:Key="White">#F2F2F2</Color>
     <Color x:Key="Black">#0C0C0C</Color>

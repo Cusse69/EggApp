@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EggApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7dcccb8c5e18a109e05943de424311d6c275c944")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+377ca1bbdd1feba077854664fa15ba8d8a3e6173")]
 [assembly: System.Reflection.AssemblyProductAttribute("EggApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EggApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

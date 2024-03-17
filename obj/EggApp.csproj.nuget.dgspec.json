@@ -66,6 +66,10 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -76,21 +80,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
-            },
-            "Syncfusion.Maui.Sliders": {
-              "target": "Package",
-              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -117,6 +117,10 @@
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -127,21 +131,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
-            },
-            "Syncfusion.Maui.Sliders": {
-              "target": "Package",
-              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -168,6 +168,10 @@
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -178,21 +182,17 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )",
               "autoReferenced": true
-            },
-            "Syncfusion.Maui.Sliders": {
-              "target": "Package",
-              "version": "[24.2.9, )"
             }
           },
           "imports": [
@@ -220,6 +220,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "Camera.MAUI": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.2, )"
@@ -230,15 +234,11 @@
             },
             "Microsoft.Maui.Controls": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
-              "version": "[8.0.6, )"
-            },
-            "Syncfusion.Maui.Sliders": {
-              "target": "Package",
-              "version": "[24.2.9, )"
+              "version": "[8.0.10, )"
             }
           },
           "imports": [

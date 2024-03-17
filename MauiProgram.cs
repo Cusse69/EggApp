@@ -1,4 +1,4 @@
-﻿using EggApp.ViewModels;
+﻿using Camera.MAUI;
 using Microsoft.Extensions.Logging;
 
 namespace EggApp
@@ -10,6 +10,7 @@ namespace EggApp
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCameraView()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -19,10 +20,6 @@ namespace EggApp
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<MainPage>();
-
-            builder.Services.AddTransient<DetailPage>();
-            builder.Services.AddTransient<DetailViewModel>();
 
             return builder.Build();
         }
